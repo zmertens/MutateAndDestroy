@@ -28,8 +28,10 @@
 	  { preload: preload, create: create, update: update, render: render });
 
   function preload() {
-    game.load.image('ball', 'assets/ball_grayscale.png');
-    game.load.image('square', 'assets/block_solid.png');
+    game.load.image('Adenine', 'assets/A.png');
+    game.load.image('Cytosine', 'assets/C.png');
+    game.load.image('Guanine', 'assets/G.png');
+    game.load.image('Uracil', 'assets/T.png');
     game.load.shader('bacteria', 'assets/bacteria.frag');
   }
 
