@@ -103,7 +103,7 @@ var nucleobases = (function() {
     if (options.y === undefined) throw "_createPurine: no y";
     if (options.color === undefined) throw "_createPurine: no color";
 
-    var purine = this._game.add.sprite(options.x, options.y, 'square');
+    var purine = this._game.add.sprite(options.x, options.y, 'Adenine');
     this._setCommonSettings(options, purine);
 
     return purine;
@@ -115,7 +115,7 @@ var nucleobases = (function() {
     if (options.y === undefined) throw "_createPyrimidine: no y";
     if (options.color === undefined) throw "_createPyrimidine: no color";
 
-    var pyrimidine = this._game.add.sprite(options.x, options.y, 'ball');
+    var pyrimidine = this._game.add.sprite(options.x, options.y, 'Cytosine');
     this._setCommonSettings(options, pyrimidine);
 
     return pyrimidine;
